@@ -1,0 +1,98 @@
+==================================================================
+Getting and Cleaning Data Project
+Data Set:  Human Activity Recognition Using Smartphones
+
+Data Description Retrieved 20July2015 at: 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+Data Set Retrieved 20July2015 at: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+==================================================================
+
+From the data set, the following text files were merged:  
+    - ID <- test/subject_test.txt: A vector giving the patient’s ID (1:30)
+    - Labels <- test/y_test.txt: A vector stating the patient’s activity (1:6) 
+	WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
+    - Group <- This variable was created to distinguish between ‘test’ patients and ’training’ patients
+    - feature.txt:  A vector of column names for test/X_test.txt  
+	Only mean and std were kept.  This data come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. A complete definition of the names are given in the data set under the features_info.txt document.  Here is a list of these variables (column names):  
+
+tAccMeanX          
+tAccMeanY
+tAccMeanZ          
+tAccStdX
+tAccStdY            
+tAccStdZ
+tGravityAccMeanX    
+tGravityAccMeanY
+tGravityAccMeanZ    
+tGravityAccStdX
+tGravityAccStdY    
+tGravityAccStdZ
+tAccJerkMeanX       
+tAccJerkMeanY
+tAccJerkMeanZ       
+tAccJerkStdX
+tAccJerkStdY        
+tAccJerkStdZ
+tGyroMeanX          
+tGyroMeanY
+tGyroMeanZ          
+tGyroStdX
+tGyroStdY          
+tGyroStdZ
+tGyroJerkMeanX      
+tGyroJerkMeanY
+tGyroJerkMeanZ      
+tGyroJerkStdX
+tGyroJerkStdY       
+tGyroJerkStdZ
+tAccMagMean         
+tAccMagStd
+tGravityAccMagMean 
+tGravityAccMagStd
+tAccJerkMagMean    
+tAccJerkMagStd
+tGyroMagMean      
+tGyroMagStd
+tGyroJerkMagMean    
+tGyroJerkMagStd
+fAccMeanX         
+fAccMeanY
+fAccMeanZ          
+fAccStdX
+fAccStdY           
+fAccStdZ
+fAccMeanFreqX       
+fAccMeanFreqY
+fAccMeanFreqZ       
+fAccJerkMeanX
+fAccJerkMeanY       
+fAccJerkMeanZ
+fAccJerkStdX        
+fAccJerkStdY
+fAccJerkStdZ       
+fAccJerkMeanFreqX
+fAccJerkMeanFreqY  
+fAccJerkMeanFreqZ
+fGyroMeanX         
+fGyroMeanY
+fGyroMeanZ          
+fGyroStdX
+fGyroStdY           
+fGyroStdZ
+fGyroMeanFreqX      
+fGyroMeanFreqY
+fGyroMeanFreqZ     
+fAccMagMean
+fAccMagStd         
+fAccMagMeanFreq
+fAccJerkMagMean     
+fAccJerkMagStd
+fAccJerkMagMeanFreq 
+fGyroMagMean
+fGyroMagStd        
+fGyroMagMeanFreq
+fGyroJerkMagMean   
+fGyroJerkMagStd
+fGyroJerkMagMeanFreq
